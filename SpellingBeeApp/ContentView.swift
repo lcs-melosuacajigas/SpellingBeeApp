@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    var itemsToSpell = randomElement()
+    
+    //MARK: Stored properties
+    @State var currentItem = itemsToSpell randomElement()!
+    
     var body: some View {
         Text("Hello, world!")
             .padding()

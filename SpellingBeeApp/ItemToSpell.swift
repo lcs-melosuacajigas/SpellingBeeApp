@@ -13,7 +13,7 @@ struct ItemToSpell: Identifiable {
     let imageName: String
 }
 
-let ItemToSpell = [
+let ItemToSpell = {
     ItemToSpell(word:"apple",
                 imageName:"apple"),
     
@@ -28,10 +28,30 @@ let ItemToSpell = [
     
     ItemToSpell(word:"orange",
                 imageName:"orange"),
+    
+    ItemToSpell(word:"peach",
+                imageName:"peach"),
+    
+    ItemToSpell(word:"pear",
+                imageName:"pear"),
+    
+    ItemToSpell(word:"pineapple",
+                imageName:"pineapple"),
+    
+    ItemToSpell(word:"plum",
+                imageName:"plum"),
+    
+    ItemToSpell(word:"strawberry",
+                imageName:"strawberry")
+
+
+
+
+
 
 
 
 
     
     
-]
+}
