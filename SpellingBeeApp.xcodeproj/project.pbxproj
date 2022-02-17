@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEEED9F127BEAF9300F16B47 /* SpellingBeeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEED9F027BEAF9300F16B47 /* SpellingBeeAppApp.swift */; };
+		AEEED9F127BEAF9300F16B47 /* SpellingBeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEED9F027BEAF9300F16B47 /* SpellingBeeApp.swift */; };
 		AEEED9F327BEAF9300F16B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEED9F227BEAF9300F16B47 /* ContentView.swift */; };
 		AEEED9F527BEAF9900F16B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEED9F427BEAF9900F16B47 /* Assets.xcassets */; };
 		AEEED9F827BEAF9900F16B47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEED9F727BEAF9900F16B47 /* Preview Assets.xcassets */; };
+		AEEED9FF27BEB3E200F16B47 /* ItemToSpell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEED9FE27BEB3E200F16B47 /* ItemToSpell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEEED9ED27BEAF9300F16B47 /* SpellingBeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingBeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEEED9F027BEAF9300F16B47 /* SpellingBeeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingBeeAppApp.swift; sourceTree = "<group>"; };
+		AEEED9F027BEAF9300F16B47 /* SpellingBeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingBeeApp.swift; sourceTree = "<group>"; };
 		AEEED9F227BEAF9300F16B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEEED9F427BEAF9900F16B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEEED9F727BEAF9900F16B47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEEED9FE27BEB3E200F16B47 /* ItemToSpell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemToSpell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		AEEED9EF27BEAF9300F16B47 /* SpellingBeeApp */ = {
 			isa = PBXGroup;
 			children = (
-				AEEED9F027BEAF9300F16B47 /* SpellingBeeAppApp.swift */,
+				AEEED9F027BEAF9300F16B47 /* SpellingBeeApp.swift */,
 				AEEED9F227BEAF9300F16B47 /* ContentView.swift */,
+				AEEED9FE27BEB3E200F16B47 /* ItemToSpell.swift */,
 				AEEED9F427BEAF9900F16B47 /* Assets.xcassets */,
 				AEEED9F627BEAF9900F16B47 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEED9FF27BEB3E200F16B47 /* ItemToSpell.swift in Sources */,
 				AEEED9F327BEAF9300F16B47 /* ContentView.swift in Sources */,
-				AEEED9F127BEAF9300F16B47 /* SpellingBeeAppApp.swift in Sources */,
+				AEEED9F127BEAF9300F16B47 /* SpellingBeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
